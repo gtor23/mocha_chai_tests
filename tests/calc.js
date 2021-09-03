@@ -40,10 +40,10 @@ describe ('Calculator', () => {
             expect(calculator.multiply(1,1)).to.equal(1)
         })
         it('should multiply two numbers', () => {
-            expect(calculator.subtract(3,2)).to.equal(6)
-            expect(calculator.subtract(50,39)).to.equal(1950)
-            expect(calculator.subtract(-31,32)).to.equal(-992)
-            expect(calculator.subtract(-5,-2)).to.equal(10)
+            expect(calculator.multiply(3,2)).to.equal(6)
+            expect(calculator.multiply(50,39)).to.equal(1950)
+            expect(calculator.multiply(-31,32)).to.equal(-992)
+            expect(calculator.multiply(-5,-2)).to.equal(10)
         })
     })
 
