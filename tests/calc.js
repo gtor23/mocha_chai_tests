@@ -5,7 +5,7 @@ const expect = chai.expect;
 //import the calculator file
 const calculator = require('../src/calculator');
 
-
+// create main structure calculator to test four math operations (+, -, *, /)
 describe ('Calculator', () => {
 // test cases for summing 2 numbers   
     describe('Addition', () => {
