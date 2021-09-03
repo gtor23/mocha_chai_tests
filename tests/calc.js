@@ -1,9 +1,12 @@
 // import the chai library
 const chai = require('chai');
+//import expect object
 const expect = chai.expect;
 
 //import the calculator file
-const calculator = require('../src/calculator');
+const calculator = require('../src/calculator');   
+// can also deconstruct
+// const {add, subtract, multiply, divide} = require('../src/calculator');
 
 // create main structure calculator to test four math operations (+, -, *, /)
 describe ('Calculator', () => {
