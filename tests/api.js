@@ -39,7 +39,7 @@ describe('API', () => {
         beforeEach(() => {
             fakeServer = createFakeServer();
         })
-    })
+    
 
     it('should return the object', (done) => {
         chai.request(fakeServer)
@@ -70,5 +70,6 @@ describe('API', () => {
 
                 done()
             })
+        })
     })
 })
